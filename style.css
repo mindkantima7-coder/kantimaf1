@@ -1,0 +1,156 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    background: #f2f5f9;
+    color: #263449;
+    line-height: 1.7;
+}
+
+header {
+    background: #173b65;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav {
+    background: #245b91;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 12px;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+.hero {
+    text-align: center;
+    padding: 45px 20px;
+    background: white;
+}
+
+.hero h1 {
+    color: #173b65;
+}
+
+.college-image {
+    width: 100%;
+    max-width: 900px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.menu-section {
+    text-align: center;
+    padding: 40px 5%;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+.menu-card {
+    background: white;
+    padding: 25px 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000012;
+}
+
+.menu-card h3 {
+    color: #173b65;
+}
+
+.icon {
+    font-size: 42px;
+}
+
+.btn {
+    display: inline-block;
+    background: #173b65;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: #3477b9;
+}
+
+.content {
+    max-width: 950px;
+    min-height: 60vh;
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.content h1,
+.content h2 {
+    color: #173b65;
+}
+
+.content iframe {
+    border-radius: 10px;
+}
+
+.contact-card {
+    background: #f2f5f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    overflow-wrap: anywhere;
+}
+
+.contact-card a {
+    color: #245b91;
+}
+
+footer {
+    background: #173b65;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        grid-template-columns: 1fr;
+    }
+
+    .content {
+        margin: 18px 12px;
+        padding: 20px;
+    }
+
+    nav a {
+        margin: 5px 7px;
+    }
+}
+
